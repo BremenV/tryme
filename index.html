@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Try It!</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<headder>
+<h1>Try Your Code!</h1>
+<header>
+
+<input onclick="runCode();" type = "button" value = "Run Code" class="button">
+
+<table>
+<tr>
+<th>
+<h2>Code:</h2>
+</th>
+<th>
+<h2>Results:</h2>
+</th>
+</tr>
+<tr>
+<td>
+<textarea name = "sourceCode" id ="sourceCode">
+<html>
+<head>
+<title>Hello</title>
+</head>
+<body>
+<h1>Hi</h1>
+<p>Write your HTML, CSS, or Javascript here!</p>
+<p>Click Run Code to see the results!</p>
+</body>
+</html>
+</textarea>
+</td>
+<td>
+<iframe id="iframe" style="background-color: white;"></iframe>
+</td>
+</table>
+<script>
+function runCode() {
+var content = document.getElementById('sourceCode').value
+var doc =
+document.getElementById('iframe').contentWindow.document;
+doc.open();
+doc.write(content);
+doc.close();
+}
+</script>
+</body>
+</html>
+
