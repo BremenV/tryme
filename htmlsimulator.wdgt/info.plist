@@ -6,19 +6,19 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDisplayName</key>
-	<string>HTML Simulator</string>
+	<string>Example Profile Page</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.bremenvance.widget.HTMLsimulator</string>
+	<string>com.bremenvance.widget.htmlsimulator</string>
 	<key>CFBundleName</key>
-	<string>htmlsimulator</string>
+	<string>Example Profile</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>Profile 1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>Height</key>
 	<integer>768</integer>
 	<key>MainHTML</key>
-	<string>main.html</string>
+	<string>index.html</string>
 	<key>Width</key>
 	<integer>1024</integer>
 	<key>IBNotifiesOnReady</key>
