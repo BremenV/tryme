@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Code Simulator</title>
+</head>
+<body>
+<form>
+<textarea name="htmlArea" cols="80" rows="10"></textarea>
+<br>
+<input value=" view " onclick="displayHTML(this.form)" type="button">
+</form>
+
+<script>
+function displayHTML(form) {
+  var inf = form.htmlArea.value;
+  win = window.open(", ", 'popup', 'toolbar = no, status = no');
+  win.document.write("" + inf + "");
+}
+</script>
+
+
+<div id="textarea">
+</div>
+<div id="iframe container">
+<div id="iframe">
+<div id="iframewrapper">
+<iframe id="iframeResult" name="iframeResult" frameborder="0">
+#document
+<!DOCTYPE html>
+<html>
+<head></head>
+<body contenteditable="false">
+content for testing....
+</body>
+<html>
+</html>
+</iframe>
+</div>
+</div>
+</div>
+
+</body>
+</html>
